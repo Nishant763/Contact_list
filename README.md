@@ -2,7 +2,7 @@
 Simple contact list using MEN stack.
 
 <h2>package.json</h2>
-<p>{
+<code>{
   "name": "contact_list",
   "version": "1.0.0",
   "description": "basic contact list to learn express js as a framework",
@@ -17,4 +17,4 @@ Simple contact list using MEN stack.
     "express": "^4.17.1",
     "mongoose": "^5.9.14"
   }
-}</p>
+}</code>
