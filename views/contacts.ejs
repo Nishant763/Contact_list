@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Contacts</title>
+    </head>
+    <body>
+        <h1>Contact List</h1>
+        <ul>
+            <% for(i of contact_list){%>
+                <li>
+                    <p><%= i.name%></p>
+                    <p><%= i.phone%></p>
+                </li>
+            <%} %>
+        </ul>
+    </body>
+</html>

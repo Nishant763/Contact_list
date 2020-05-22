@@ -1,0 +1,56 @@
+body{
+    
+    font-family: fantasy;
+    margin: 0;
+    background-image: url(http://www.allfreepsd.com/wp-content/uploads/2018/10/AllFreePsd-Vector-Graphics-Poster-background_16-800x600.jpg)
+    
+}
+a{
+    color: aqua;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color:whitesmoke;
+}
+.contact-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    background-color:blue;
+    margin-bottom: 0.2rem;
+    color: white;
+    padding: 1%;
+}
+.contact-items:hover{
+    background-color: blueviolet;
+}
+#my-list{
+    margin-left: 30%;
+    list-style: none;
+    
+}
+
+#my-form{
+    margin-top: 0;
+    margin-left: 33.5%;
+}
+.input-element{
+    border: none;
+    border-bottom: 0.1rem black solid;
+    background-color: bisque;
+}
+#submit-btn{
+    background-color:navajowhite;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px black solid;
+    padding: 2px;
+    font-size: 12px;
+}
+.window-close{
+    position: relative;
+    top: 0;
+    left: 50%;
+}
